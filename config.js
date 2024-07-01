@@ -11,8 +11,7 @@ global.email ="ayprecious01@gmail.com"
 global.location="Osogbo,Nigeria."
 
 
-global.mongodb= process.env.MONGODB_URI || "mongodb+ssuhail:suhail@cluster.cu90etc
-.mongodb.net/?retryWrites=true&w=majorityrv://"
+global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
